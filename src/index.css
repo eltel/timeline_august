@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+	background: linear-gradient(105deg, #200026, #649433);
+}
+
+#playerChatContainer {
+	width: 80%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 699px) {
+	#playerChatContainer {
+	width: 91%;
+		padding: .5em;
+}
 }
