@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Timeline",
+  "name": "Timeline Music",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "favicon2.ico",
+      "sizes": "144x144",
       "type": "image/png"
     }
   ],
