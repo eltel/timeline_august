@@ -3,9 +3,9 @@
   "name": "Timeline Music",
   "icons": [
     {
-      "src": "favicon2.ico",
-      "sizes": "144x144",
-      "type": "image/png"
+      "src": "TL_200x200.jpg",
+      "sizes": "200x200",
+      "type": "image/jpg"
     }
   ],
   "start_url": "./index.html",
