@@ -3,13 +3,23 @@
   "name": "Timeline Music",
   "icons": [
     {
-      "src": "TL_200x200.jpg",
-      "sizes": "200x200",
-      "type": "image/jpg"
+      "src": "TLM144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+		{
+      "src": "TLM256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+		{
+      "src": "TLM512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#39372b",
   "background_color": "#ffffff"
 }
