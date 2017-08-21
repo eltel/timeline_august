@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async) {async=async!==false;var params={embedChatsParameters:chats instanceof Array?chats:[chats],needLoadCode:typeof Chatbro==='undefined'};var xhr=new XMLHttpRequest();xhr.withCredentials = true;xhr.onload=function(){eval(xhr.responseText)};xhr.onerror=function(){console.error('Chatbro loading error')};xhr.open('POST','//www.chatbro.com/embed_chats/',async);xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.send('parameters='+encodeURIComponent(JSON.stringify(params)))}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '47Tu'});</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body style="background: linear-gradient(105deg, #200026, #649433);
+}">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">			
+		</div>
+		
+		<!--<div id="waveform"></div>
+		<div style="text-align: center">
+  <button class="btn btn-primary" onClick="wavesurfer.playPause()">
+    <i class="glyphicon glyphicon-play"></i>
+    Play
+  </button>-->
+		<div id="playerChatContainer">
+<div id="svp_player2dduo643aqtc" style="width:820px;height:520px;position:relative;"></div>
+<script language="javascript" type="text/javascript" src="//play.webvideocore.net/js/dplayer.js"></script>
+<script language="javascript">
+<!--
+var vars = {clip_id:"2dduo643aqtc",transparent:"false",pause:"1",repeat:"1",bg_color:"",fs_mode:"2",no_controls:"0",start_img:"0",start_volume:"100",close_button:"",brand_new_window:"1",auto_hide:"1",stretch_video:"1",player_align:"NONE",offset_x:"",offset_y:"",player_color_ratio:0.6,skinAlpha:"50",colorBase:"#58630e",colorIcon:"#FFFFFF",colorHighlight:"#778f1f",direct:"true",is_responsive:"true",viewers_limit:0,cc_position:"bottom",cc_positionOffset:70,cc_multiplier:0.03,cc_textColor:"#ffffff",cc_textOutlineColor:"#ffffff",cc_bkgColor:"#000000",cc_bkgAlpha:0.7};
+var svp_player = new SVPDynamicPlayer("svp_player2dduo643aqtc", "", "100%", "100%", {use_div:"svp_player2dduo643aqtc",skin:"3"}, vars);
+svp_player.execute();
+//-->
+</script>
+<noscript>Your browser does not support JavaScript! JavaScript is needed to display this video player!</noscript>
+<!--player code end-->
+			<p>LIVE!!</p>
+		<div id="chatbro"></div>
+		</div>
+		
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

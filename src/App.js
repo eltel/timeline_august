@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './TL_200x200.jpg';
+import logo from './TimelineMusicOscilator-stretch1.png';
 import './App.css';
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
+import { Link } from 'react-router'
 /*import {
   Router,
   Route,
@@ -59,19 +59,16 @@ wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_libriv
     return (
 			 <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Timeline Music</h2>
-        </div>
-        <h1 className="App-intro">
-          Timeline Music - Sonic Visions of Futures and Futures Passed, Streaming 24/7 - 365
-        </h1>
-			<p><Link to="/home">Home</Link></p>
+			<img src={logo} className="App-logo" alt="logo" />
+                  </div>
+			<div className="navMenu">
+					<p><Link to="/">Stream</Link></p>
 
-         <p><Link to="/contact">Contact</Link></p>
+         <p><Link to="/live">Live</Link></p>
 
-         <p><Link to="/notexist">Not Exist</Link></p>
+         <p><Link to="/calendar">Calendar</Link></p>
          {this.props.children}
-       	
+       	</div>
       </div>
     );
   }

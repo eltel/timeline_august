@@ -2,23 +2,67 @@
   text-align: center;
 }
 
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/*  animation: App-logo-spin infinite 20s linear;*/
+  height: 100%;
 }
 
+@media screen and (max-width: 699px) {
+	.App-logo {
+/*  animation: App-logo-spin infinite 20s linear;*/
+  max-height: 91%;
+	max-width: 91%;
+}
+	.App-header {
+    margin-bottom: 0 ! important;
+}
+
+}
+
+iframe #wpadminbar.mobile .no-grav {
+	display: none;
+}
+
+
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 10px;
-  color: white;
+  height: auto;
+	margin-top: .8em;
+	margin-bottom: .3em;
+}
+
+@media screen and (min-width: 520px) {
+	.App {
+    max-width: 80%;
+    margin: auto;
+		    margin-bottom: 1em;
+   }
+    .App-header {
+  text-align: right;
+	margin-top: .8em;
+	margin-bottom: .3em;
+//	 background: #222;
+}
+	
+	.navMenu a {
+    padding-bottom: .5em;
+}
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+.navMenu p {
+    display: inline;
+	  margin: 1em;
+}
+
+.navMenu a {
+    color: #fff;
+}
+
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
