@@ -66,7 +66,7 @@ wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_libriv
 
          <p><Link to="/live">Live</Link></p>
 
-         <p><Link to="/calendar">Calendar</Link></p>
+         <p><Link to="/mixes">Mixes</Link></p>
          {this.props.children}
        	</div>
       </div>
