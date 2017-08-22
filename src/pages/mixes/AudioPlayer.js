@@ -37,7 +37,7 @@ class AudioPlayer extends Component {
           onPosChange={this.handlePosChange}
           playing={this.state.playing}
         />
-			 <button class="btn btn-primary" onClick={wavesurfer.playPause()}>
+			 <button class="btn btn-primary" onClick={this.handleTogglePlay}>
     <i className="glyphicon glyphicon-play"></i>
     Play/Pause
   </button>
