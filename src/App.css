@@ -8,6 +8,11 @@
   height: 100%;
 }
 
+.App-logo img {
+/*  animation: App-logo-spin infinite 20s linear;*/
+  max-width: 100%;
+}
+
 @media screen and (max-width: 699px) {
 	.App-logo {
 /*  animation: App-logo-spin infinite 20s linear;*/
@@ -20,15 +25,15 @@
 
 }
 
-iframe #wpadminbar.mobile .no-grav {
-	display: none;
-}
-
-
 .App-header {
   height: auto;
 	margin-top: .8em;
 	margin-bottom: .3em;
+}
+
+.App-header img {
+/*  animation: App-logo-spin infinite 20s linear;*/
+  max-width: 100%;
 }
 
 @media screen and (min-width: 520px) {
@@ -41,7 +46,6 @@ iframe #wpadminbar.mobile .no-grav {
   text-align: right;
 	margin-top: .8em;
 	margin-bottom: .3em;
-//	 background: #222;
 }
 	
 	.navMenu a {

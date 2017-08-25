@@ -1,13 +1,9 @@
-html{
-	background: linear-gradient(105deg, #200026, #649433);
-	height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-	}
+	background: linear-gradient(105deg, #200026, #649433);
+}
 
 #playerChatContainer {
 	width: 80%;
