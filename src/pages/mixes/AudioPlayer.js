@@ -5,7 +5,6 @@ import './AudioPlayer.css';
 require('wavesurfer.js');
 
 
-
 class AudioPlayer extends Component {
 	constructor(props) {
     super(props);
@@ -28,6 +27,13 @@ class AudioPlayer extends Component {
     });
   }
  render() {
+	 
+	 
+	 let element = document.getElementById("playerChatContainer").style.display = 'none';
+
+/*	 window.onload = function() {
+  document.getElementById('playerChatContainer').style.display = 'none';
+};*/
 	
    return (
 		 <div>
@@ -37,7 +43,7 @@ class AudioPlayer extends Component {
           onPosChange={this.handlePosChange}
           playing={this.state.playing}
         />
-			 <button class="btn btn-primary" onClick={this.handleTogglePlay}>
+			 <button className="btn btn-primary" onClick={this.handleTogglePlay}>
     <i className="glyphicon glyphicon-play"></i>
     Play/Pause
   </button>

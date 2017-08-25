@@ -37,6 +37,7 @@
     Play
   </button>-->
 		<div id="playerChatContainer">
+			<div id="parent"></div>
 <div id="svp_player2dduo643aqtc" style="width:820px;height:520px;position:relative;"></div>
 <script language="javascript" type="text/javascript" src="//play.webvideocore.net/js/dplayer.js"></script>
 <script language="javascript">
@@ -46,6 +47,13 @@ var svp_player = new SVPDynamicPlayer("svp_player2dduo643aqtc", "", "100%", "100
 svp_player.execute();
 //-->
 </script>
+			<!--<script>
+			let playerDivClass = ["searchInput"];
+	 
+	 if (this.props.searchVisible) {
+		 playerDivClass.push("active");
+	 }
+			</script>-->
 <noscript>Your browser does not support JavaScript! JavaScript is needed to display this video player!</noscript>
 <!--player code end-->
 		<div id="chatbro"></div>

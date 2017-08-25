@@ -56,6 +56,40 @@ class App extends Component {
 });
 
 wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'); */
+		
+		
+	/*	var element = document.getElementById("playerChatContainer");
+		var elementChild = document.getElementById("svp_player2dduo643aqtc"); 
+		var elementChat = document.getElementById("chatbro");
+		var elementParent = document.getElementById("parent");
+		elementParent.appendChild(elementChild);
+		
+		var elementParent = document.getElementById("parent");
+		elementParent.appendChild(elementChild);
+		
+		var elementChild = document.getElementById("svp_player2dduo643aqtc"); 
+		
+		var element = document.getElementById("svp_player2dduo643aqtc");
+		
+		 */
+		/*
+		var element = document.getElementById("playerChatContainer");
+		var elementChild = document.getElementById("svp_player2dduo643aqtc"); 
+		element.appendChild(elementChild);
+		
+		window.onload = function() {
+	// element.appendChild(elementChild);
+  document.getElementById('svp_player2dduo643aqtc').style.display = 'block';
+};*/
+					
+	 //   element.display === 'block';
+ 
+	let element = document.getElementById("playerChatContainer").style.display = 'block';
+		
+	/*	window.onload = function() {
+  document.getElementById('playerChatContainer').style.display = 'block';
+};
+		*/
     return (
 			 <div className="App">
         <div className="App-header">
