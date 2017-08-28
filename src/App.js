@@ -86,6 +86,7 @@ wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_libriv
  
 	let element = document.getElementById("playerContainer").style.display = 'block';
 	let elementLive = document.getElementById("livePlayerContainer").style.display = 'none';
+	let elementChat = document.getElementById("chat").style.display = 'block';
 		
 	/*	window.onload = function() {
   document.getElementById('playerChatContainer').style.display = 'block';
