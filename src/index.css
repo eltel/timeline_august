@@ -16,8 +16,12 @@ body {
 
 
 @media screen and (max-width: 699px) {
+	html {
+		height: auto;
+	}
+	
 	#playerContainer {
 	width: 91%;
 		padding: .5em;
-}
+		}
 }
