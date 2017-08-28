@@ -41,6 +41,7 @@ class AudioPlayer extends Component {
 	
    return (
 		 <div>
+		 <div>
         <Wavesurfer
           audioFile={'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'}
           pos={this.state.pos}
@@ -52,6 +53,19 @@ class AudioPlayer extends Component {
     Play/Pause
   </button>
       </div>
+		 <div>
+        <Wavesurfer
+          audioFile={'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'}
+          pos={this.state.pos}
+          onPosChange={this.handlePosChange}
+          playing={this.state.playing}
+        />
+			 <button className="btn btn-primary" onClick={this.handleTogglePlay}>
+    <i className="glyphicon glyphicon-play"></i>
+    Play/Pause
+  </button>
+      </div>
+		 </div>
       );
  }
 }
