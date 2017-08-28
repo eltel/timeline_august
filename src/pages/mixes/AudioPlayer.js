@@ -31,7 +31,9 @@ class AudioPlayer extends Component {
  render() {
 	 
 	 
-	 let element = document.getElementById("playerChatContainer").style.display = 'none';
+	 let element = document.getElementById("playerContainer").style.display = 'none';
+	 
+	 let elementChat = document.getElementById("chat").style.display = 'none';
 
 /*	 window.onload = function() {
   document.getElementById('playerChatContainer').style.display = 'none';

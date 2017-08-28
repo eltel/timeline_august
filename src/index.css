@@ -9,14 +9,14 @@ body {
   font-family: sans-serif;
 	}
 
-#playerChatContainer {
+#livePlayerContainer, #playerContainer, #chat {
 	width: 80%;
   margin: 0 auto;
 }
 
 
 @media screen and (max-width: 699px) {
-	#playerChatContainer {
+	#playerContainer {
 	width: 91%;
 		padding: .5em;
 }

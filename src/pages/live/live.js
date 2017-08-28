@@ -3,9 +3,12 @@ import './live.css';
 
 class Live extends Component {
  render() {
-   return (
+	 let element = document.getElementById("playerContainer").style.display = 'none';
+	 let elementLive = document.getElementById("livePlayerContainer").style.display = 'block';
+	 let elementChat = document.getElementById("chat").style.display = 'block';
+	 return (
      <div className="live">
-       <h1>Live</h1>
+       <h1>Strictly Live!</h1>
      </div>
    );
  }
