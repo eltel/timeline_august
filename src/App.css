@@ -33,7 +33,8 @@
 
 .App-header img {
 /*  animation: App-logo-spin infinite 20s linear;*/
-  max-width: 100%;
+/*  max-width: 100%;*/
+	width: 100%;
 }
 
 @media screen and (min-width: 520px) {
@@ -43,7 +44,7 @@
 		    margin-bottom: 1em;
    }
     .App-header {
-  text-align: right;
+/* text-align: right;*/
 	margin-top: .8em;
 	margin-bottom: .3em;
 }
@@ -57,9 +58,15 @@
   font-size: large;
 }
 
+.navMenu {
+	    margin: .5em 0 0 0;
+}
+
 .navMenu p {
     display: inline;
-	  margin: 1em;
+    margin: 1.75em;
+    padding: 0 .75em 0 .75em;
+    background: #260e27;
 }
 
 .navMenu a {

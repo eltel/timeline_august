@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import Wavesurfer from 'react-wavesurfer';
+// import Wavesurfer from 'react-wavesurfer';
 import './AudioPlayer.css';
+// import {Button, IconButton} from 'react-toolbox/lib/button';
+// import Button from 'react-bootstrap/lib/Button';
+// import ReactAudioPlayer from 'react-audio-player';
+import Audio from 'react-audioplayer';
+import {playlist} from './playlist.json'
 
-require('wavesurfer.js');
-
-var vars = {clip_id:"2dduo643aqtc",transparent:"false",pause:"0",repeat:"1",bg_color:"",fs_mode:"2",no_controls:"0",start_img:"0",start_volume:"100",close_button:"",brand_new_window:"1",auto_hide:"1",stretch_video:"1",player_align:"NONE",offset_x:"",offset_y:"",player_color_ratio:0.6,skinAlpha:"50",colorBase:"#58630e",colorIcon:"#FFFFFF",colorHighlight:"#778f1f",direct:"true",is_responsive:"true",viewers_limit:0,cc_position:"bottom",cc_positionOffset:70,cc_multiplier:0.03,cc_textColor:"#ffffff",cc_textOutlineColor:"#ffffff",cc_bkgColor:"#000000",cc_bkgAlpha:0.7};
+// require('wavesurfer.js');
 
 
 class AudioPlayer extends Component {
@@ -41,43 +44,15 @@ class AudioPlayer extends Component {
 	
    return (
 		 <div>
-		 <div>
-        <Wavesurfer
-          audioFile={'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'}
-          pos={this.state.pos}
-          onPosChange={this.handlePosChange}
-          playing={this.state.playing}
-        />
-			 <button className="btn btn-primary" onClick={this.handleTogglePlay}>
-    <i className="glyphicon glyphicon-play"></i>
-    Play/Pause
-  </button>
-      </div>
-		 <div>
-        <Wavesurfer
-          audioFile={'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'}
-          pos={this.state.pos}
-          onPosChange={this.handlePosChange}
-          playing={this.state.playing}
-        />
-			 <button className="btn btn-primary" onClick={this.handleTogglePlay}>
-    <i className="glyphicon glyphicon-play"></i>
-    Play/Pause
-  </button>
-      </div>
-		  <div>
-        <Wavesurfer
-          audioFile={'https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'}
-          pos={this.state.pos}
-          onPosChange={this.handlePosChange}
-          playing={this.state.playing}
-        />
-			 <button className="btn btn-primary" onClick={this.handleTogglePlay}>
-    <i className="glyphicon glyphicon-play"></i>
-    Play/Pause
-  </button>
-      </div>
-		 </div>
+		 <Audio
+  width={600}
+  height={400}
+	fullPlayer={true}
+	comment={true}
+  autoPlay={false}
+  playlist={playlist}
+/>
+      		 	 </div>
       );
  }
 }

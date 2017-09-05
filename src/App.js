@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './TimelineMusicOscilator-stretch1.png';
 import './App.css';
 import { Link } from 'react-router'
+// import { LinkContainer } from 'react-router-bootstrap'
 /*import {
   Router,
   Route,
