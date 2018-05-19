@@ -3,14 +3,13 @@ import React, { Component } from 'react';
 import './AudioPlayer.css';
 // import {Button, IconButton} from 'react-toolbox/lib/button';
 // import Button from 'react-bootstrap/lib/Button';
-// import ReactAudioPlayer from 'react-audio-player';
-import Audio from 'react-audioplayer';
-import playlist from './playlist.json'
+import ReactAudioPlayer from 'react-audio-player';
 
 // require('wavesurfer.js');
 
-const styles = {
-    width: '100%',
+const playerStyle = {
+boxShadowhadow: 15 15 20 rgba(0,0, 0, 0.4);
+transform: scale(1.05);
 };
 
 
@@ -47,17 +46,27 @@ class AudioPlayer extends Component {
 };*/
 	
    return (
-		 <div className= 'audioBox'>
-		 <Audio
-  width={600}
-  height={400}
-	fullPlayer={true}
-	comment={true}
-	onCommentSubmit={(text) => {alert(text); }}
-  autoPlay={false}
-  playlist={playlist.playlist}
-	style={styles}
-/>
+		 <div>
+		 <div>
+        <ReactAudioPlayer
+  src="https://s3-sa-east-1.amazonaws.com/timelinemusic/Keith-Anderson-Frequency-Project-001-Launch.mp3"
+  style={playerStyle}
+  controls
+	/>
+      </div>
+		 <div>
+        <ReactAudioPlayer
+  src="https://s3-sa-east-1.amazonaws.com/timelinemusic/Rick-Hopkins-Bubble-Chamber-Sessions-001-Nov-2016-hearthis.at_.mp3"
+  controls
+	/>
+      </div>
+		 
+		 		 <div>
+        <ReactAudioPlayer
+  src="https://s3-sa-east-1.amazonaws.com/timelinemusic/Steve-Wellings-Frequency-Project-001-Launch-MIX-Nov-2016-hearthis.at_.mp3"
+  controls
+	/>
+		 </div>
       		 	 </div>
       );
  }

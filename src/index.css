@@ -20,9 +20,11 @@ body {
 		height: auto;
 	}
 	
-	#playerContainer, #chat {
+	#playerContainer, #chat, .audioBox {
 	width: 91%;
 		padding: .5em;
+		margin: 0 auto;
+		
 		}
 }
 
