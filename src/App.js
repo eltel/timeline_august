@@ -125,13 +125,16 @@ wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_libriv
         <div className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
                   </div>
-			<div className="navMenu">
+			<div id="navDivLeft" className="navMenu">
+      <div className="navDiv">
 					<p><Link to="/">Stream</Link></p>
-
+          </div>
+      <div  id="navDivCenter" className="navDiv">
          <p><Link to="/live">Live</Link></p>
-
+         </div>
+      <div id="navDivRight" className="navDiv">
          <p><Link to="/mixes">Mixes</Link></p>
-
+         </div>
        	</div>
 			{this.props.children}
       </div>

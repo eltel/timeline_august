@@ -75,7 +75,27 @@
 
  html {
   /* height: 100% !important; */
-  padding-bottom: 100%;
+  padding-bottom: 60%;
+}
+
+.navDiv {
+  width: 33%;
+  display: inline-block;
+}
+
+#navDivRight {
+  text-align: right;
+
+}
+
+#navDivCenter {
+  text-align: center;
+
+}
+
+#navDivLeft {
+  text-align: left;
+
 }
 
 
