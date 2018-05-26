@@ -125,8 +125,8 @@ wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_libriv
         <div className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
                   </div>
-			<div id="navDivLeft" className="navMenu">
-      <div className="navDiv">
+			<div className="navMenu">
+      <div id="navDivLeft" className="navDiv">
 					<p><Link to="/">Stream</Link></p>
           </div>
       <div  id="navDivCenter" className="navDiv">
